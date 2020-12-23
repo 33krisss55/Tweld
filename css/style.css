@@ -1,0 +1,17 @@
+.item .dark_block_animate{opacity: 1;}
+.item:hover .dark_block_animate{opacity: 0;}
+.item:hover .wrap_tizer.light_text .wrap_outer .inner_text{color: #1d1a1a;}
+.start_promo .item{height: 300px; background-color: #d4d4d8;}
+.start_promo .item .img_block{height: 200px;}
+
+@media screen and (max-width:768px){
+    .start_promo .item{height: 270px;}
+    .wrap_tizer .wrap_outer.title{display: inline-block;}
+}
+@media screen and (max-width:600px){
+    .start_promo .item{height: 250px;}
+}
+@media screen and (max-width:425px){
+    .start_promo .item{height: 200px;}
+    .start_promo .item .img_block{height: 160px;}
+}
